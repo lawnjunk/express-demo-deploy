@@ -6,5 +6,5 @@ services:
 before-script:
   - npm install
 script:
-  - ls
+  - npm run lint
   - npm test

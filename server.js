@@ -40,6 +40,7 @@ app.get('/api/note/:id', function(req, res, next){
 app.use(function(err, req, res, next){
   console.error(err);
   res.send('you did something wrong');
+  next();
 });
 
 app.listen(port, function(){

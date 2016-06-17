@@ -22,7 +22,7 @@ describe('testings notes', function(){
   after((done) => {
     Note.remove({})
     .then(() => done())
-    .catch(done)
+    .catch(done);
   });
 
   it('should return a note', function(done){
@@ -32,7 +32,7 @@ describe('testings notes', function(){
       expect(res.body.content).to.equal('test data');
       done();
     })
-    .catch(done)
+    .catch(done);
   });
 
 
