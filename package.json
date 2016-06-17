@@ -4,6 +4,8 @@
   "description": "lalala",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "lint": "./node_modules/eslint/bin/eslint.js ./",
     "test": "./node_modules/mocha/bin/mocha "
   },
   "repository": {
