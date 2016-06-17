@@ -10,6 +10,11 @@ const app = express();
 
 app.use(morgan('dev'));
 
+// setup routes
+app.post('/api/note', function(){
+  res.json({content: 'test data'});
+});
+
 app.listen(port, function(){
   console.log('server up #HCKR%HCKR#', port);
 });
