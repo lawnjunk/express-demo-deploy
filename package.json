@@ -1,0 +1,23 @@
+{
+  "name": "express-deploy-demo",
+  "version": "1.0.0",
+  "description": "lalala",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slugbyte/express-demo-deploy.git"
+  },
+  "author": "duncan@codefellows.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slugbyte/express-demo-deploy/issues"
+  },
+  "homepage": "https://github.com/slugbyte/express-demo-deploy#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
