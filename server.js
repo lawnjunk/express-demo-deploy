@@ -25,6 +25,7 @@ app.use(morgan('dev'));
 
 // setup routes
 app.post('/api/note', jsonParser, function(req, res, next){
+  console.log('req.body', req.body);
   new Note(req.body).save()
   .then( note => res.send(note))
   .catch(next);
