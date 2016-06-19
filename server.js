@@ -45,5 +45,5 @@ app.use(function(err, req, res, next){
 });
 
 app.listen(port, function(){
-  console.log('server up #HCKR%HCKR#', port);
+  console.log('hahahahhah', port);
 });
